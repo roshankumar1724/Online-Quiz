@@ -17,7 +17,7 @@ Some of the technologies used in the project are :
 ## NOTE:
   * This project was done local server managed by the [XAMPP].
   * Database used was **MY SQL**, again managed by _PHPMyAdmin_
-  * It also a 'project.sql' file, an exported sql file which can be be imported to have the same structured database.
+  * It also a 'projectdb.sql' file, an exported sql file which can be be imported to have the same structured database.
   * Following steps 
   
 [//]: # 
