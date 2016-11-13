@@ -1,0 +1,26 @@
+#Q_desc{
+	font-size: 20px;
+	color: #080808;
+	font-family: helvetica
+	/*font-family:cursive; */
+}
+
+div.question{
+
+	display: none;
+}
+
+
+body{
+	font-family: helvetica,arial,sans-serif;
+	text-align: center;
+}
+button{
+	padding: 10px 15px;
+border-radius: 15px;
+background-color: rgb(105, 222, 53);
+border: medium none;
+margin-bottom: 30px;
+cursor: pointer;
+color: rgb(255, 0, 0);
+}

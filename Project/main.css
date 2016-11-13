@@ -1,0 +1,135 @@
+#start{
+	padding-top: 300px;
+	padding-left: 550px;	
+}
+
+#submit{
+	color: beige;
+	height: 55px;
+	width:200px;
+	background-color: darkslategray;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+	text-shadow:0 2px 4px red;
+}
+
+#submit:hover{
+	cursor: pointer;
+	background-color: lightblue;
+
+}
+
+#index{
+	background-image: url("images/campus-interview.jpg");	
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+fieldset{
+	text-align: center;
+	box-shadow: 0 0 5px;
+}
+
+h1{
+	text-align: center;
+	color: brown;
+	font-family: Goudy Old Style;
+
+}
+
+legend{
+	
+	font-weight: bold;
+}
+
+/*article{
+	text-align: center;
+}*/
+
+#l{
+	display: block;
+	background-image: url("images/bg.jpg");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tabLinks:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tabLinks li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tabLinks a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tabLinks a:hover {
+            
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tabContent {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+        .tabLinks li 
+	{
+		float: left;
+		width: 200px;
+		line-height: 40px;
+		background-color: Beige;
+		color: white;
+	}
+
+	.tabs li
+	{
+		float: left;
+		width: 300px;
+		line-height: 40px;
+		background-color: rgb(192, 192, 46);
+		color: #FFF;
+	}
